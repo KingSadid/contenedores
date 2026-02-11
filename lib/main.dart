@@ -13,17 +13,16 @@ class MiAplicacion extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Layout Demo',
       home: Scaffold(
-        body: ListView( 
+        body: ListView(
           children: [
-           
-            Image.network(
-              'https://cdn.pixabay.com/photo/2016/09/04/20/09/mountains-1645078_640.jpg',
+            
+            Image.asset(
+              'assets/Suiza-Montañas.jpg', 
               width: 600,
               height: 240,
-              fit: BoxFit.cover, 
+              fit: BoxFit.cover,
             ),
 
-          
             Padding(
               padding: const EdgeInsets.all(32),
               child: Row(
@@ -48,14 +47,12 @@ class MiAplicacion extends StatelessWidget {
                       ],
                     ),
                   ),
-                
                   Icon(Icons.star, color: Colors.red[500]),
                   const Text('41'),
                 ],
               ),
             ),
 
-      
             const Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -65,7 +62,6 @@ class MiAplicacion extends StatelessWidget {
               ],
             ),
 
-           
             const Padding(
               padding: EdgeInsets.all(32),
               child: Text(
@@ -79,7 +75,6 @@ class MiAplicacion extends StatelessWidget {
     );
   }
 }
-
 
 class _BotonIcono extends StatelessWidget {
   final IconData icon;
