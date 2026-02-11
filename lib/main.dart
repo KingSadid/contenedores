@@ -16,7 +16,7 @@ class MiAplicacion extends StatelessWidget {
           title: const Text('Ejemplo de Container'),
           backgroundColor: Colors.amber,
         ),
-        // Aquí comienza tu código solicitado
+        
         body: Center(
           child: Container(
             margin: const EdgeInsets.all(10.0),
