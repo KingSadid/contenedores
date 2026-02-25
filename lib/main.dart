@@ -56,7 +56,7 @@ class ProductDetailsScreen extends StatelessWidget {
           ),
         ],
       ),
-      // Uso Column con Expanded para empujar los botones al fondo de forma natural
+      // Uso Column con Expanded para empujar los botones al fondo 
       body: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -138,13 +138,13 @@ class _DescriptionSection extends StatelessWidget {
   }
 }
 
-/// Componente personalizado que reemplaza el selector de color por iconos aleatorios.
+/// Componente personalizado de los iconos aleatorios.
 class _IconSelector extends StatelessWidget {
   const _IconSelector();
 
   @override
   Widget build(BuildContext context) {
-    // Lista de iconos aleatorios y distintos como se solicitó
+    // Lista de iconos aleatorios
     final List<IconData> displayIcons = [
       Icons.ac_unit,             // ❄️
       Icons.local_fire_department, // 🔥
