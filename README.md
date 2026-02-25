@@ -22,11 +22,10 @@ INSTRUCCIONES:
 Guarda tu captura de pantalla en una carpeta llamada 'assets' en la raíz de tu proyecto con el nombre 'screenshot.png'.
 Luego, elimina el div de abajo y descomenta la siguiente línea:
 -->
-<!-- ![App Screenshot](assets/screenshot.png) -->
-
-<div align="center">
-  <img src="https://via.placeholder.com/350x700.png?text=Coloca+tu+captura+aqui" alt="Screenshot de la App" width="300"/>
-</div>
+<p align="center">
+  <!-- Reemplaza la ruta del src con la de tu imagen cuando la tengas -->
+  <img src="assets/screenshot.png" alt="Screenshot de la App en Emulador Android" width="350"/>
+</p>
 
 ---
 
